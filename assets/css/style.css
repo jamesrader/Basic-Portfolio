@@ -104,6 +104,15 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
 #profile-photo {
     width: 200px;
     float: left;
@@ -135,6 +144,7 @@ textarea {
     resize: vertical;
     width: 97.5%;
     max-height:320px;
+    min-height: 100px;
     padding: 5px 10px;
     color: #4aaaa5;
     outline-color: #4aaaa5;
@@ -172,4 +182,30 @@ footer {
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 14px;
+}
+
+.thumb-row{
+    height: 230px;
+}
+.thumb-holder {
+    width: 280px;
+    height: 210px;
+    display: inline-block;
+    padding: 8px 36px 8px 0;
+}
+
+.thumb-holder:last-of-type {
+    padding-right: 0;
+}
+
+.thumbnail {
+    width: 280px;
+}
+
+.thumb-text {
+    width: 280px;
+    height: 60px;
+    position: relative;
+    bottom: 93px;
+    background-color: #4aaaa5;
 }
