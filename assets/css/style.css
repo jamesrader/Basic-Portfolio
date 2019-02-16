@@ -200,10 +200,13 @@ footer {
 
 .thumbnail {
     width: 280px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
 }
 
 .thumb-text {
-    width: 280px;
+    width: 282px;
     height: 60px;
     position: relative;
     bottom: 93px;
