@@ -1,38 +1,51 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <title>James Rader Basic Portfolio Site</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
-        <header>
-            <div id="header-content">
-                <div id="heading-container">
+
+<head>
+    <meta charset="utf-8">
+    <title>James Rader Basic Portfolio Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div id="header-content">
+            <div id="heading-container">
                 <section class="heading">James Rader</section>
-                </div>
-            <nav><ul><li><a href="#">Contact</a></li><li class="no-hover">|</li><li><a href="portfolio.html">Portfolio</a></li><li class="no-hover">|</li><li><a href="index.html">About</a></li></ul></nav>
             </div>
-        </header>
-        <div class="content-bg">
-            <section class="main-content">
-                <section class="main-text">
+            <nav>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li class="no-hover">|</li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="no-hover">|</li>
+                    <li><a href="index.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content-bg">
+        <section class="main-content">
+            <section class="main-text">
                 <h1>Contact</h1>
                 <hr>
+                <!-- Formspree allows emails from a static site -->
                 <form action="https://formspree.io/james.rader@cox.net" method="POST">
                     <div class="label">Name</div>
                     <input type="text" name="name"><br>
                     <div class="label">Email</div>
                     <input type="text" name="email">
                     <div class="label">Message</div>
-                    <textarea name="message" rows="10" cols="100"></textarea>
+                    <textarea name="message" rows="10" cols="100"
+                        placeholder="Try sending me a message - it REALLY works...even from a static website!"></textarea>
                     <input type="submit" value="Submit">
                 </form>
-                </section>
             </section>
-        </div>
-        <footer>
-            <div class="footer-content">Copyright &copy; 2019 James Rader</div>
-        </footer>
-    </body>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-content">Copyright &copy; 2019 James Rader</div>
+    </footer>
+</body>
+
 </html>
